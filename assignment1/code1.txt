@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My first webpage.</title>
+    <meta charset="uft-8">
+    </head>
+    <body>
+        <h1>Sammy Salem | z1774815</h1>
+        <p>5219 N<Reserve></sup> Ave, Chicago, IL 60656 | (773)-401-7412 | samaken233@gmail.com</p>
+        <h3>Education</h3>
+        
+        <b>High School Deploma | May 2015 |William Howard Taft High School</b>
+    </body>
+</html>
