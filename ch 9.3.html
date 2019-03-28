@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {  box-sizing: border-box;}
+
+.column { float: left;padding: 10px;height: 360px; }
+.left { width: 30%; }
+.right { width: 70%;}
+.row:after { content: ""; display: table; clear: both; }
+
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column left">
+    <form method="post" action="http://webdevbasics.net/scripts/demo.php"> <br>
+<label>E-mail: <input type="email" name="email" id="email"
+  required="required" placeholder="enter your email"></label><br> <br>
+<label>Comments: <br>
+<textarea rows="7" cols="35" name="comment" id="comment"
+    maxlength="1600"> </textarea> </label><br>
+ <br>
+  <input type="submit" value="Send Feedback"> <br>
+  <br>
+<input type="reset"><br>
+</form>
+
+</body>
+
+<footer> 
+     <br> Sam Salem <br>
+    <a href="mailto:z1774815@students.niu.edu">My Email: z1774815@students.niu.edu </a> </footer>
+</html>
