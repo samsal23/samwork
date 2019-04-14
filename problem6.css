@@ -1,0 +1,77 @@
+﻿        header, nav, main, footer, aside {
+            display: block;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 10px;
+          background-image: linear-gradient(to bottom, #ffffff, #808080);
+            background-image: url(sky.JPG);
+            padding: 20px;
+            border: 1px double #000000;
+        }
+
+        #container {
+       
+            color: #000000;
+            min-width: 960px;
+            font-family: Verdana, 'Times New Roman', sans-serif;
+        }
+
+        header {
+       
+            background-position: top;
+            
+            background-repeat: repeat-x;
+            height: 105px;
+            color: #0094ff;
+            text-align: center;
+            padding: 7px;
+            border-bottom: 2px solid #000000;
+        }
+
+
+
+        main {
+            margin: 0 210px 0 160px;
+            padding: 1px 10px 20px 10px;
+      
+            color: #000000;
+        }
+
+        footer {
+            font-size: .70em;
+            text-align: center;
+            color: #006600;
+          
+            padding-top: 10px;
+            clear: both;
+        }
+
+        h1 {
+            margin-top: 4px;
+            font-size: 3em;
+            text-align: center;
+            text-shadow: 2px 2px 2px #000000;
+        }
+
+        header a {
+            font-size: 0.80em;
+        }
+        
+.column {float: left;
+  width: 40%;
+  padding: 20px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+  
+.row:after {content: "";
+  display: table;
+  clear: both;
+}
+
