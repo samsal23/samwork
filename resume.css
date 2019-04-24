@@ -1,0 +1,91 @@
+﻿    header, nav, main, footer, aside {
+ display: block;
+        }
+
+        * {
+            box-sizing: content-box;
+        }
+
+        body {
+            margin: 5px;
+            background-color: #808080;
+        }
+
+        #container {
+            background-color: #0094ff;
+            color: #000000;
+            min-width: 960px;
+            font-family: Verdana, 'Times New Roman', sans-serif;
+        }
+
+      
+
+        nav {
+            float: left;
+            width: 150px;
+        }
+
+        aside {
+            float: right;
+            width: 200px;
+        }
+
+        main {
+            margin: 0 210px 0 160px;
+            padding: 1px 10px 20px 10px;
+            background-color: #808080;
+            color: #000000;
+        }
+
+        footer {
+            font-size: .70em;
+            text-align: center;
+            color: #006600;
+            background-color: #808080;
+            padding-top: 10px;
+            clear: both;
+        }
+
+        h1 {
+            margin-top: 4px;
+            font-size: 3em;
+            text-align: center;
+            text-shadow: 2px 2px 2px #000000;
+        }
+
+        header a {
+            font-size: 0.90em;
+            color: #006600;
+        }
+   
+
+
+
+
+        main p {
+            margin: 15px;
+        }
+
+        main h2, main h3 {
+            color: #000000;
+            background-color: #808080;
+        }
+
+        .floatright {
+            margin: 10px;
+            float: initial;
+        }
+
+        .news {
+            font-size: 0.80em;
+            margin: 10px;
+        }
+    #wrapper {
+           width: 75%;
+		   margin: auto;
+
+}
+    img {
+	max-width: 60%;
+    max-height: 30%;
+}
