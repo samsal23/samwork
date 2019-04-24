@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<meta charset="utf-8">
+<style>
+header, nav, main, footer, aside { display: block; }
+* { box-sizing: content-box;}
+body { margin:5px;
+       background-color: #808080; }
+#container { background-color: #0094ff;
+             color: #000000;
+             min-width: 960px;
+             font-family: Verdana, 'Times New Roman', sans-serif; }
+header { background-color: #808080;
+         background-image: url(niu1.jpg);
+         background-position: top;
+         background-repeat: repeat-x;
+         height: 105px;
+         color: #0094ff;
+         text-align: center;
+         padding: 7px;
+         border-bottom: 2px solid #000000; }		 
+nav { float: left;
+      width: 150px; }
+aside { float: right;
+        width: 200px; }
+main { margin: 0 210px 0 160px;
+        padding: 1px 10px 20px 10px;
+        background-color: #808080;
+        color: #000000; }
+footer { font-size: .70em;
+         text-align: center;
+         color: #006600;
+         background-color: #808080;
+         padding-top: 10px;
+         clear: both; }		 
+h1 { margin-top: 4px;
+     font-size: 3em;
+     text-align: center;
+     text-shadow: 2px 2px 2px #000000; }	 
+header a {font-size: 0.80em; }
+    aside ul {
+        margin-top: 20px;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+     
+
+
+nav ul { margin-top: 20px;
+         list-style-type:none; 
+        text-decoration: none;
+        font-size: 1.2em;}
+
+nav a:visited { color: #0026ff; }
+
+
+main p { margin: 15px; }
+main h2, main h3 { color: #000000;
+                   background-color: #808080; }
+.floatright { margin: 10px;
+              float: initial; }
+
+.news { font-size: 0.80em;
+        margin: 10px; }		
+</style> 
+
+</head>
+<body>
+<div id="container">
+  <header role="banner">
+    <h1>My Web Presence</h1>
+  </header>
+  <nav role="navigation">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="hobbie1.html">Hobby 1</a></li>
+    <li><a href="hobbie2.html">Hobby 2</a></li>
+    <li><a href="aboutme.html">About me</a></li>
+    <li><a href="grades.html">Grades</a></li>
+    <li><a href="contact.html">Contact</a></li>
+   </ul>
+ </nav>
+ <aside role="complementary">
+  <h3> My Work/Projects </h3>
+     <ul>
+    <li> <a href="assignment1.html">Project 1</a> </li>
+    <li> <a href="assignment2.html">Project 2</a> </li>
+    <li> <a href="assignment3.html">Project 3</a></li>
+         </ul>
+  </aside>
+  <main role="main" id="content">
+    <h2>Home Page</h2>
+    <p>Welcome, this is my Web Presence Project. My name is Sammy Salem, I attend Northern Illinois University. I am a senior with an expected graduation in May 2019. I'm majoring in Operations Management and Information Systems. My focus is in the information systems side of my major and specifically have a passion for databases management. I previously had an internship this summer working on a database project. Also, after taking SQL last semester I realized it’s my favorite style of coding. Not only was I good at it I was also able to help my friends. </p>
+    <p>Here is a picture of me to give you an understanding of what I look like.</p>
+    <img src="regpic.jpeg" width="375" height="600" alt="Normal pic" id="floatcenter">
+      <button onclick="myFunction()">Print this page</button>
+      <script>
+function myFunction() { window.print(); }
+      </script>
+    
+    <footer role="contentinfo"> <br>
+    </footer>
+  </main>
+</div> 
+</body>
+</html>
+
